@@ -1,3 +1,6 @@
+#! Python3
+# bracketValid.py - Ensures all bracktes are valid and closed correctly
+
 def isValid(s):
     '''s = string including brackets
     return type: bool
