@@ -16,7 +16,6 @@ def isValid(s):
         if s[i] in closingBrackets:
             if bracket[len(bracket)-1] != closingBrackets[s[i]]:
                 return False
-                quit()
             else:
                 bracket.pop()
         else:
